@@ -1,7 +1,7 @@
 {
-  "name": "hikki-me",
+  "name": "hdiiofficial-topup",
   "version": "1.0.8",
-  "description": "lopyou kack yang make module hikki-me",
+  "description": "lopyou kack yang make module hdiiofficial-topup",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\"",
@@ -21,7 +21,7 @@
     "wa-bot",
     "whatsapp-bot"
   ],
-  "author": "hardianto-cpu",
+  "author": "hdiiofficial",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2",
@@ -36,6 +36,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hardianto-cpu/hikki-me"
+    "url": "https://github.com/hdiiofficial/hdiiofficial-topup"
   }
 }
