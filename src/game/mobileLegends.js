@@ -42,4 +42,29 @@ module.exports = {
         })
     })
   },
+  async topupMobileLegens(id, zoneId, nominal) {
+    return new Promise(async (resolve, reject) => {
+      const json = require('./mobilelegends.json')
+      const data = nominal in json ? json[nominal] : null
+      if (!data) {
+        reject('nominal tidak tersedia')
+      }
+      data.gameId = id
+      data.zoneId = zoneId
+      axios
+        .post('https://api.duniagames.co.id/api/transaction/v1/top-up/inquiry/store', new URLSearchParams(Object.entries(data)), {
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+            Referer: 'https://www.duniagames.co.id/',
+            Accept: 'application/json',
+          },
+        })
+        .then((response) => {
+          resolve(response.data)
+        })
+        .catch((err) => {
+          reject(err)
+        })
+    })
+  },
 }
