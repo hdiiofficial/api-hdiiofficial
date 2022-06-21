@@ -67,4 +67,33 @@ module.exports = {
         })
     })
   },
+  async payDiamond(returnTopup, phoneNumber) {
+    return new Promise(async (resolve, reject) => {
+      if (!phoneNumber.startsWith('08')) return reject('input nomor dengan 08')
+      axios
+        .post(
+          'https://api.duniagames.co.id/api/transaction/v1/top-up/transaction/store',
+          new URLSearchParams(
+            Object.entries({
+              inquiryId: returnTopup.data.inquiryId,
+              phoneNumber: phoneNumber,
+              transactionId: returnTopup.data.transactionId,
+            })
+          ),
+          {
+            headers: {
+              'Content-Type': 'application/x-www-form-urlencoded',
+              Referer: 'https://www.duniagames.co.id/',
+              Accept: 'application/json',
+            },
+          }
+        )
+        .then((response) => {
+          resolve(response.data.data.elisaConfig)
+        })
+        .catch((err) => {
+          reject(err)
+        })
+    })
+  },
 }
