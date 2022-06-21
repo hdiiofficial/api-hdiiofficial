@@ -1,0 +1,6 @@
+# modules
+node_modules
+# lock version
+*lock.json
+# private test
+test.js
