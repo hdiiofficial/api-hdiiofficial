@@ -1,17 +1,16 @@
 
-# hikki-me
+# hdiiofficial
 
 our features are few but we provide the best and it is not uncommon to find in other npmjs
 
-![Logo](https://github.com/hardianto-cpu/hikki-me/blob/main/example/banner.png)
 
 
 ## Installation
 
-Install hikki-me with npm
+Install hdiiofficial-topup with npm
 
 ```bash
-npm install hdiiofficial-topup
+npm i hdiiofficial-topup
 ```
 install latest version
 
@@ -22,13 +21,13 @@ npm install github: hdiiofficial/hdiiofficial-topup
 ## How Use?
 
 ```javascript
-const hikki = require('hdiiofficial-topup')
+const hdiiofficial = require('hdiiofficial-topup')
 ```
 # Game Feature
 ## Clash Of Clans
 
 ```js
-hikki.game.getInfoClasher('#PP9QY2U2Q').then(console.log)
+hdiiofficial.game.getInfoClasher('#PP9QY2U2Q').then(console.log)
 ```
 *return*
 ```txt
@@ -62,7 +61,7 @@ hikki.game.getInfoClasher('#PP9QY2U2Q').then(console.log)
 ## Nickname Free Fire!
 
 ```js
-hikki.game.nickNameFreefire('239814337').then(console.log)
+hdiiofficial.game.nickNameFreefire('239814337').then(console.log)
 ```
  *return*
  ```txt
@@ -71,9 +70,9 @@ hikki.game.nickNameFreefire('239814337').then(console.log)
  ## Top Up Free Fire
  ```js
  async function topupFreeFire() {
-const makeSession = await hikki.game.topupFreeFire('239814337', '70') // support nominal 5 12 70 140 355 720'
+const makeSession = await hdiiofficial.game.topupFreeFire('239814337', '70') // support nominal 5 12 70 140 355 720'
 // console.log(makeSession) if get more property
-return await hikki.game.payDiamond(makeSession, '08953225697662')
+return await hdiiofficial.game.payDiamond(makeSession, '08953225697662')
 }
 topupFreeFire().then(console.log).catch(console.error)
 ```
@@ -89,7 +88,7 @@ topupFreeFire().then(console.log).catch(console.error)
 ```
 ## Nickname Mobile Legends!
   ```js
-  hikki.game.nickNameMobileLegends('109088431', '2558').then(console.log).catch(console.error)
+  hdiiofficial.game.nickNameMobileLegends('109088431', '2558').then(console.log).catch(console.error)
   ```
   *return*
   ```txt
@@ -97,7 +96,7 @@ topupFreeFire().then(console.log).catch(console.error)
   ```
 ## Nickname Supersus!
 ```js
-hikki.game.superSusChecker('20431364').then(console.log).catch(console.error)
+hdiiofficial.game.superSusChecker('20431364').then(console.log).catch(console.error)
 ```
 *return*
 ```txt
@@ -120,7 +119,7 @@ hikki.game.superSusChecker('20431364').then(console.log).catch(console.error)
 # Downloader Feature
 ## facebook!
 ```js
-hikki.downloader.facebookDownload('https://www.facebook.com/mhmd.farid.908/videos/473529950837803/').then(console.log).catch(console.error)
+hdiiofficial.downloader.facebookDownload('https://www.facebook.com/mhmd.farid.908/videos/473529950837803/').then(console.log).catch(console.error)
 ```
 *return*
 ```txt
@@ -141,7 +140,7 @@ hikki.downloader.facebookDownload('https://www.facebook.com/mhmd.farid.908/video
 ## Meta Scrape!
 ```js
 // all in one download sosial link see more on https://downvideo.quora-wiki.com/
-hikki.downloader.metaScrape('https://vt.tiktok.com/ZSdeRDb3U//').then(console.log).catch(console.error)
+hdiiofficial.downloader.metaScrape('https://vt.tiktok.com/ZSdeRDb3U//').then(console.log).catch(console.error)
 ```
 *return*
 ```txt
@@ -150,10 +149,10 @@ depending on your link. different social media, different property results
 ```
 ## Tiktok!
 ```js
-hikki.downloader.tiktokDownloader('https://vt.tiktok.com/ZSdeRDb3U/').then(console.log).catch(console.error)
+hdiiofficial.downloader.tiktokDownloader('https://vt.tiktok.com/ZSdeRDb3U/').then(console.log).catch(console.error)
 ```
 *return*
-```txt
+```txtl
 {
   title: '#flashback2021 #xyzbca #fyp #temolla',
   keywords: 'flashback,alwayssfor.u,flashback2021,xyzbca,fyp,temolla,TikTok, ティックトック, tik tok, tick tock, tic tok, tic toc, tictok, тик ток, ticktock',
@@ -229,7 +228,7 @@ hikki.downloader.tiktokDownloader('https://vt.tiktok.com/ZSdeRDb3U/').then(conso
 ```
 ## youtube!
 ```js
-hikki.downloader.youtubePlay('light switch').then(console.log).catch(console.error)
+hdiiofficial.downloader.youtubePlay('light switch').then(console.log).catch(console.error)
 ```
 *return*
 ```txt 
@@ -238,7 +237,7 @@ hikki.downloader.youtubePlay('light switch').then(console.log).catch(console.err
 # Weebs Feature
 ## Wallpaper
 ```js
-hikki.anime.animeWallpaper('keqing').then(console.log).catch(console.error)
+hdiiofficial.anime.animeWallpaper('keqing').then(console.log).catch(console.error)
 
 ```
 *return*
@@ -319,9 +318,9 @@ hikki.anime.animeWallpaper('keqing').then(console.log).catch(console.error)
 ## Hentai Hot! (di tanggung yang make)
 ```js
 
-const array_str = await hikki.anime.getHotPic().then(console.log).catch(console.error)
+const array_str = await hdiiofficial.anime.getHotPic().then(console.log).catch(console.error)
 // get raw url
-await hikki.anime.getUrl(array_str[0]).then(console.log).catch(console.error)
+await hdiiofficial.anime.getUrl(array_str[0]).then(console.log).catch(console.error)
 
 ```
 *return*
@@ -339,7 +338,7 @@ https://cdn.2dhentai.club/wp-content/uploads/2022/05/Genshin-Impact-hentai-Keqin
 ```
 ## Hentai Random!
 ```js 
-await hikki.anime.randomHentai().then(console.log).catch(console.error)
+await hdiiofficial.anime.randomHentai().then(console.log).catch(console.error)
 ```
 *return*
 ```txt
@@ -353,7 +352,7 @@ await hikki.anime.randomHentai().then(console.log).catch(console.error)
 ```
 ## Hentai Get By Name (sd quality)
 ```js
-await hikki.anime.getCharacterHentaiByNameAndGetRawURL('keqing').then(console.log).catch(console.error) // gpp sd yang penting banyak
+await hdiiofficial.anime.getCharacterHentaiByNameAndGetRawURL('keqing').then(console.log).catch(console.error) // gpp sd yang penting banyak
 ```
 *return*
 ```txt
@@ -370,7 +369,7 @@ await hikki.anime.getCharacterHentaiByNameAndGetRawURL('keqing').then(console.lo
 ## Hentai Get By Name (hd quality)
 ```js
 const jangan = await hikki.anime.getCharacterHentaiByName('keqing')
-hikki.anime.getUrl(jangan[0]).then(console.log).catch(console.error)
+hdiiofficial.anime.getUrl(jangan[0]).then(console.log).catch(console.error)
 ```
 *return*
 ```txt
@@ -428,7 +427,7 @@ id_product untuk convert saldo ke linkaja 44-51 max Rp.200.000
 
 ```js
 // check id product di atas
-hikki.payment.convertSaldo(1, '085173222764').then(console.log).catch(console.error)
+hdiiofficial.payment.convertSaldo(1, '085173222764').then(console.log).catch(console.error)
 ```
 ```txt
 {
@@ -443,7 +442,7 @@ hikki.payment.convertSaldo(1, '085173222764').then(console.log).catch(console.er
 # Tools Feature
 ## build sticker (whatsapp-sticker)
 ```js
-hikki.tools.makeSticker('https://w0.peakpx.com/wallpaper/929/489/HD-wallpaper-keqing-portrait-genshin-impact.jpg', {
+hdiiofficial.tools.makeSticker('https://w0.peakpx.com/wallpaper/929/489/HD-wallpaper-keqing-portrait-genshin-impact.jpg', {
     author: 'hikki',
     pack: 'keqing',
     // circle: true, // default false
@@ -465,7 +464,7 @@ https://www.tiktok.com/@iyhfflawss/video/7074218009589517594?_d=secCgYIASAHKAESP
 # Generator
 ## Elon Talk Meme
 ```
-hikki.maker.elonTalks(1, 'beliau kocak geming').then(console.log).catch(console.error)
+hdiiofficial.maker.elonTalks(1, 'beliau kocak geming').then(console.log).catch(console.error)
 ```
 *return*
 ```
@@ -496,3 +495,5 @@ Contributions are always welcome!
 ## Notice
 
 if there is an error in the docs apologies. if there is an error, bug or request please contact me on [Instagram](https://instagram.com/hardianto02_) or [Whatsapp](https://wa.me/6285173222764)
+
+this module cloning from hikki-me
