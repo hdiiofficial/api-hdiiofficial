@@ -11,18 +11,18 @@ our features are few but we provide the best and it is not uncommon to find in o
 Install hikki-me with npm
 
 ```bash
-npm install hikki-me
+npm install hdiiofficial-topup
 ```
 install latest version
 
 ```bash
-npm install github:hardianto-cpu/hikki-me
+npm install github: hdiiofficial/hdiiofficial-topup
 ```
 
 ## How Use?
 
 ```javascript
-const hikki = require('hikki-me')
+const hikki = require('hdiiofficial-topup')
 ```
 # Game Feature
 ## Clash Of Clans
