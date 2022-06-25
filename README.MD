@@ -7,21 +7,21 @@ our features are few but we provide the best and it is not uncommon to find in o
 
 ## Installation
 
-Install hdiiofficial-topup with npm
+Install hdiiofficial
 
 ```bash
-npm i hdiiofficial-topup
+npm i hdiiofficial
 ```
 install latest version
 
 ```bash
-npm install github: hdiiofficial/hdiiofficial-topup
+npm install github: hdiiofficial/api-hdiiofficial
 ```
 
 ## How Use?
 
 ```javascript
-const hdiiofficial = require('hdiiofficial-topup')
+const hdiiofficial = require('hdiiofficial')
 ```
 # Game Feature
 ## Clash Of Clans
