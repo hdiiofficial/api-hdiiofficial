@@ -480,9 +480,6 @@ hdiiofficial.maker.elonTalks(1, 'beliau kocak geming').then(console.log).catch(c
 - father and mother
 - [@cina](https://github.com/hexagonz)
 - [@rayyreall](https://github.com/rayyreall)
-
-## Authors
-
 - [@hardianto](https://www.github.com/hardianto-cpu)
 
 ## Contributing
@@ -490,10 +487,10 @@ hdiiofficial.maker.elonTalks(1, 'beliau kocak geming').then(console.log).catch(c
 Contributions are always welcome!
  [Contributing Now](https://github.com/hardianto-cpu/hikki-me)
 
- [Donate And Contact Me](https://wa.me/6285173222764)
+ [Donate And Contact Me](https://wa.me/628501399751)
 
 ## Notice
 
-if there is an error in the docs apologies. if there is an error, bug or request please contact me on [Instagram](https://instagram.com/hardianto02_) or [Whatsapp](https://wa.me/6285173222764)
+if there is an error in the docs apologies. if there is an error, bug or request please contact me on [Instagram](https://instagram.com/hdiiofficial) or [Whatsapp](https://wa.me/6285701399751)
 
 this module cloning from hikki-me
