@@ -1,7 +1,7 @@
 {
-  "name": "hdiiofficial-topup",
-  "version": "1.1.0",
-  "description": "lopyou kack yang make module hdiiofficial-topup",
+  "name": "hdiiofficial",
+  "version": "1.1.1",
+  "description": "module ini adalah module yang dibuat untuk saya belajar nodejs",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\"",
